@@ -1,4 +1,59 @@
-.Giantsorder h2 {
+body {
+    background-color: #3e5fc3;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: #e22844;
+    font-family: 'Orbitron';
+    font-weight: 900;
+    font-style: oblique;
+    text-align: center;
+    font-size: 70px;
+    background-color: #0B2265;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #FDFBD4;
+}
+
+h3 {
+    font-family: 'Slab-Serif', serif;
+    font-size: 38px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+hr {
+    padding-bottom: 0;
+    padding-top: 0;
+    color: aqua;
+}
+
+.NYG_intro_pgraph {
+    flex: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 20px;
+    font-size:large;
+    color: #FDFBD4
+}
+
+.Intro_section {
+    margin-left: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+}
+
+.Giantswins h2 {
     font-family: 'Slab-Serif', serif;
     font-size: 65px;
     margin: 0;
@@ -8,7 +63,7 @@
     text-align: center;
 }
 
-.Superbowl_photo {
+img {
     width: 600px;
     height: auto;
     object-fit: cover;
@@ -18,8 +73,8 @@
 .Superbowl_list {
     list-style-position: inside;
     padding-left: 0;
-    margin-top: 0px;
-    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    color: white;
     background-color: #90D5FF;
 }
 
@@ -44,20 +99,62 @@
 }
 
 .PhotoHeader {
+    margin-top: 10px;
     font-family: 'Slab-Serif', serif;
     font-size: 38px;
     margin-bottom: 10px;
     background-color: #90D5FF;
 }
 
-.PhotoText {
+p {
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 1.6;
+    color: #FDFBD4;
 }
 
 .Superbowl_list li + li {
-    border-top: 2px solid rgb(255, 255, 255);
-    padding-top: 20px;
+    border-top: 2px solid #90D5FF;
+    padding-top: 50px;
     background-color: #90D5FF;
+}
+
+table {
+    padding: 5px;
+    border: 2px;
+    word-spacing: 1px;
+    color: #FDFBD4;
+}
+
+.abc {
+    flex: 1;
+    padding: 15px;
+    border: 3px solid #ccc;
+}
+
+.tablecont {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+figcaption {
+    font-family: 'Slab-Serif', serif;
+    font-size: 38px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
 }
