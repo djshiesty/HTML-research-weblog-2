@@ -68,6 +68,7 @@ img {
     height: auto;
     object-fit: cover;
     margin-bottom: 20px;
+    box-shadow:  4px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .Superbowl_list {
@@ -157,4 +158,11 @@ figcaption {
     margin-top: 5px;
     margin-bottom: 10px;
     color: #FFFFFF;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #FDFBD4;
 }
