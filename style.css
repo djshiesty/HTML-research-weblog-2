@@ -1,0 +1,63 @@
+.Giantsorder h2 {
+    font-family: 'Slab-Serif', serif;
+    font-size: 65px;
+    margin: 0;
+    padding: 10px 0;
+    color: white;
+    background-color: #A9162D;
+    text-align: center;
+}
+
+.Superbowl_photo {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.Superbowl_list {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    background-color: #90D5FF;
+}
+
+.Superbowl_row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    color: #FDFBD4;
+    background-color: #90D5FF;
+}
+
+.Superbowl_row iframe {
+    width: 40%;
+    height: 250px;
+    border: none;
+    margin-left: 30px;
+}
+
+.Superbowl_description {
+    width: 55%;
+}
+
+.PhotoHeader {
+    font-family: 'Slab-Serif', serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+    background-color: #90D5FF;
+}
+
+.PhotoText {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.Superbowl_list li + li {
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-top: 20px;
+    background-color: #90D5FF;
+}
